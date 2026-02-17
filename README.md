@@ -7,7 +7,8 @@ https://dev.3snet.info/eventswidget/
 
 Установите зависимости
 ```
-npm install -D @playwright/test
+apt-get install nodejs npm
+npm install @playwright/test
 npx playwright install
 ```
 
