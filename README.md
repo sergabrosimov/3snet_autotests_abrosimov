@@ -8,10 +8,12 @@ https://dev.3snet.info/eventswidget/
 Установите зависимости
 ```
 sudo apt-get install nodejs npm
+```
+В папке с проектом
+```
 npm install @playwright/test
 npx playwright install
 ```
-
 Тесты разделены на группы по тегам.
 @smoke
 @critical-path
